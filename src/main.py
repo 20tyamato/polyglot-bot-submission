@@ -7,7 +7,7 @@ import discord
 import openai
 from discord.ext import commands
 
-from src.common import SUPPORTED_LANGUAGES, logger
+from src.common import GLOSSARY_JSON, SUPPORTED_LANGUAGES, logger
 from src.utils import get_env_var
 
 # Limitations
@@ -381,9 +381,10 @@ async def translate_text(text, target_language):
                 {
                     "role": "system",
                     "content": (
-                        f"You are an excellent translator. Please translate the following text to {target_lang_name}. "
-                        "Preserve the original nuance, meaning, and any special formatting such as **bold**, *italic*. "
-                        "Read everything before translating."
+                        f"あなたはプロのゲーム翻訳家です。 "
+                        f"以下のJSON形式の用語集に含まれる訳語を最優先で使用し、 "
+                        f"文脈に合わせて自然な{target_lang_name}に翻訳してください。\n\n"
+                        f"【用語集】\n{GLOSSARY_JSON}"
                     ),
                 },
                 {"role": "user", "content": modified_text},

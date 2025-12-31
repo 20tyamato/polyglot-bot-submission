@@ -20,8 +20,8 @@ Polyglot is an AI-powered Discord bot that provides seamless translation between
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/20tyamato/polyglot-bot.git
-   cd polyglot-translator-bot
+   git clone https://github.com/20tyamato/polyglot-bot-submission.git polyglot-bot
+   cd polyglot-bot
    ```
 
 2. Install required packages

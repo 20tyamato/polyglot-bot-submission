@@ -64,6 +64,13 @@ SUPPORTED_LANGUAGES = {
     },
 }
 
-# 辞書を作成する、日本語-英語の対応表
-# JSONの用語集
-# ゲームに特化している用語集
+GLOSSARY_JSON = """
+{
+  "buff": "強化",
+  "nerf": "弱体化",
+  "bug": "不具合",
+  "glitch": "バグ",
+  "build": "ビルド",
+  "hotfix": "緊急修正"
+}
+"""

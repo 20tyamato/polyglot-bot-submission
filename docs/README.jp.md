@@ -20,8 +20,8 @@ Polyglotは、OpenAI APIを使用してDiscord上のメッセージを英語と�
 1. このリポジトリをクローンします
 
    ```bash
-   git clone https://github.com/20tyamato/polyglot-bot.git
-   cd polyglot-translator-bot
+   git clone https://github.com/20tyamato/polyglot-bot-submission.git polyglot-bot
+   cd polyglot-bot
    ```
 
 2. 必要なパッケージをインストールします
