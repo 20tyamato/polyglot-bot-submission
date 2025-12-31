@@ -33,7 +33,7 @@ Polyglotは、OpenAI APIを使用してDiscord上のメッセージを英語と�
 3. `.env`ファイルを作成し、以下の環境変数を設定します
 
    ```plain
-   OPENAI_AI_MODEL="gpt-4o-2024-11-20"
+   OPENAI_AI_MODEL="gpt-5.2-2025-12-11"
    DISCORD_TOKEN=あなたのDiscordボットトークン
    OPENAI_API_KEY=あなたのOpenAI APIキー
    ```

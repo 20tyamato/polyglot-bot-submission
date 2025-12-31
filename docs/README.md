@@ -33,7 +33,7 @@ Polyglot is an AI-powered Discord bot that provides seamless translation between
 3. Create a `.env` file with the following environment variables:
 
    ```plain
-   OPENAI_AI_MODEL="gpt-4o-2024-11-20"
+   OPENAI_AI_MODEL="gpt-5.2-2025-12-11"
    DISCORD_TOKEN=your_discord_bot_token
    OPENAI_API_KEY=your_openai_api_key
    ```
